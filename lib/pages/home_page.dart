@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:qr_reader/pages/addresses_page.dart';
 import 'package:qr_reader/pages/maps_page.dart';
+import 'package:qr_reader/providers/db_provider.dart';
 import 'package:qr_reader/providers/ui_provider.dart';
 import 'package:qr_reader/widgets/widgets.dart';
+
+import '../models/scan_model.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
